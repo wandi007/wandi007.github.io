@@ -1,673 +1,946 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Wandi Febriandi</title>
-    <link rel="shortcut icon" href="favicon.jpg">
+<!doctype html>
+<html lang="en">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
-    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+  <meta name="description" content="Lewis - Creative Portfolio HTML Template">
+  <meta name="author" content="Paul, Logan Cee">
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
+  <title>Wandi Febriandi</title>
 
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-  </head>
+  <!-- CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/jquery.pagepiling.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
 
-  <body class="material-template">
-    <!-- Loading animation -->
-    <div class="preloader">
-      <div class="preloader-animation">
-        <div class="preloader-spinner">
+  <!-- Main CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="body-piling">
+  <div class="wrapper">
+    <header id="header" class="header">
+      <div class="container-fluid">
+        <div class="brand">
+          <a href="#About" class="brand-name">Ethant <span class="brand-name-s">Hunt</span></a>
         </div>
-      </div>
-    </div>
-    <!-- /Loading animation -->
- 
-    <div id="page" class="page">
-      <!-- Header -->
-      <header id="site_header" class="header mobile-menu-hide">
-        <div class="header-content">
-          <div class="site-title-block mobile-hidden">
-            <div class="site-title">Wandi <span>Febriandi</span></div>
+
+        <button class="nav-toggle-btn a-nav-toggle">
+          <span class="hamburger">
+            <span class="top-bun"></span>
+            <span class="meat"></span>
+            <span class="bottom-bun"></span>
+          </span>
+        </button>
+
+        <div class="hide-menu a-nav-toggle"></div>
+
+        <div class="menu">
+          <div class="menu-lang">
+            <a href="#" class="menu-lang-item active">Eng.</a>
+            <a href="#" class="menu-lang-item">Fra.</a>
+            <a href="#" class="menu-lang-item">Ara.</a>
           </div>
 
-          <!-- Navigation -->
-          <div class="site-nav">
-            <!-- Main menu -->
-            <ul id="nav" class="site-main-menu">
-              <li>
-                <a class="pt-trigger" href="#home" data-animation="62">Home</a><!-- href value = data-id without # of .pt-page. -->
-              </li>
-              <li>
-                <a class="pt-trigger" href="#resume" data-animation="62">Resume</a>
-              </li>
-              <li>
-                <a class="pt-trigger" href="#portfolio" data-animation="62">Portfolio</a>
-              </li>
-              <li>
-                <a class="pt-trigger" href="#blog" data-animation="62">Blog</a>
-              </li>
-              <li>
-                <a class="pt-trigger" href="#contact" data-animation="62">Contact</a>
-              </li>
+          <div class="menu-main" id="accordion">
+            <ul id="menuMain">
+              <li data-menuanchor="About" class="active"><a href="#About">About</a></li>
+              <li data-menuanchor="Services"><a href="#Services">Services</a></li>
+              <li data-menuanchor="Skills"><a href="#Skills">Skills</a></li>
+              <li data-menuanchor="Resume"><a href="#Resume">Resume</a></li>
+              <li data-menuanchor="Portfolio"><a href="#Portfolio">Portfolio</a></li>
+              <li data-menuanchor="Awards"><a href="#Awards">Awards</a></li>
+              <li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a></li>
+              <li data-menuanchor="Clients"><a href="#Clients">Clients</a></li>
+              <li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
             </ul>
-            <!-- /Main menu -->
           </div>
-          <!-- Navigation -->
-        </div>
-      </header>
-      <!-- /Header -->
 
-      <!-- Mobile Header -->
-      <div class="mobile-header mobile-visible">
-        <div class="mobile-logo-container">
-          <div class="mobile-site-title">Wandi Febriandi</div>
+          <div class="menu-footer">
+            <div class="menu-footer-contacts">
+              <div class="menu-footer-phone"><a href="tel:+121553554427" class="phone-link">(+1) 215 5355 4427</a></div>
+              <div class="menu-footer-mail"><a href="mailto:ethant.hunt@design.com"
+                  class="mail-link">ethant.hunt@design.com</a></div>
+            </div>
+            <div class="menu-footer-copyright">&copy; Ethant 2019. All Rights Reseverd</div>
+          </div>
+          <div class="menu-ornament"></div>
         </div>
-
-        <a class="menu-toggle mobile-visible">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
-      <!-- /Mobile Header -->
+    </header>
 
-      <!-- Main Content -->
-      <div id="main" class="site-main">
-        <!-- Page changer wrapper -->
-        <div class="pt-wrapper">
-          <!-- Subpages -->
-          <div class="subpages">
 
-            <!-- Home Subpage -->
-            <section class="pt-page" data-id="home">
-              <div class="section-inner start-page-content">
-                <div class="page-header">
-                  <div class="row">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                      <div class="photo">
-                        <img src="images/foto.jpg" alt="">
-                      </div>
-                    </div>
-
-                    <div class="col-sm-8 col-md-8 col-lg-8">
-                      <div class="title-block">
-                        <h1>Wandi Febriandi</h1>
-                        <div class="owl-carousel text-rotation">
-                          <div class="item">
-                            <div class="sp-subtitle">Developer</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">Web</div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="social-links">
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                      </div>
-                    </div>
+    <div id="content">
+      <div class="a-pagepiling full-page">
+        <div class="section pp-scrollable slide slide-about a-slide-typed" data-name="about">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="parallax" id="a-parallax">
+              <div class="layer shape shape2" data-depth="0.4">
+                <div class="inside animate-element delay4 bounceIn"></div>
+              </div>
+              <div class="layer shape shape3" data-depth="0.5">
+                <div class="inside animate-element delay5 bounceIn"></div>
+              </div>
+              <div class="layer shape shape4" data-depth="0.7">
+                <div class="inside animate-element delay4 bounceIn"></div>
+              </div>
+              <div class="layer shape shape5" data-depth="0.9">
+                <div class="inside animate-element delay5 bounceIn"></div>
+              </div>
+              <div class="layer shape shape6" data-depth="0.2">
+                <div class="inside animate-element delay6 bounceIn"></div>
+              </div>
+              <div class="layer shape shape7" data-depth="0.3">
+                <div class="inside animate-element delay3 bounceIn"></div>
+              </div>
+              <div class="layer shape shape8" data-depth="0.5">
+                <div class="inside animate-element delay8 bounceIn"></div>
+              </div>
+              <div class="layer shape shape9" data-depth="0.5">
+                <div class="inside animate-element delay9 bounceIn"></div>
+              </div>
+              <div class="layer shape shape10" data-depth="0.2">
+                <div class="inside animate-element delay7 bounceIn"></div>
+              </div>
+              <div class="layer shape shape11" data-depth="0.3">
+                <div class="inside animate-element delay8 bounceIn"></div>
+              </div>
+              <div class="layer shape shape12" data-depth="0.2">
+                <div class="inside animate-element delay9 bounceIn"></div>
+              </div>
+              <div class="layer shape shape13" data-depth="0.2">
+                <div class="inside animate-element delay10 bounceIn"></div>
+              </div>
+              <div class="layer shape shape14" data-depth="0.2">
+                <div class="inside animate-element delay11 bounceIn"></div>
+              </div>
+              <div class="layer shape shape15" data-depth="0.2">
+                <div class="inside animate-element delay12 bounceIn"></div>
+              </div>
+              <div class="layer shape shape16" data-depth="0.1">
+                <div class="inside animate-element delay13 bounceIn"></div>
+              </div>
+              <div class="layer shape shape1" data-depth="0.6">
+                <div class="inside animate-element delay4 bounceIn"></div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                  <div class="animate-element delay5 fadeInUp">
+                    <div class="title-mini text-primary">About me</div>
+                    <h1 class="slide-title font-custom">Hello, I’m <span class="text-typed a-typed a-typed-about"
+                        data-text="Ethant Hunt"></span><br /> I’m working as UX/UI Designers.</h1>
                   </div>
-                </div>
-
-                <div class="page-content">
-                  <div class="row">
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="about-me">
-                        <div class="block-title">
-                          <h3>About <span>Me</span></h3>
-                        </div>
-                        <p>Assalamualaikum WR. WB</p>
-                        <p>Perkenalkan nama saya Wandi Febriandi. Saya tinggal di kota Bandung bersama kedua orang tua dan satu saudara. Saya memiliki konsep hidup bantu orang tua, bantu saudara, bantu orang yang membutuhkan.
-                          Jika saya diberikan suatu project atau pekerjaan maka saya akan bertanggu jawab untuk menyelesaikan dengan tidak menunda-nunda dan melakukan yang terbaik dalam project tersebut.
-                        </p>
-                      </div>
-                      <div class="download-resume">
-                        <a href="" class="btn btn-secondary">Download Resume</a>
-                      </div>
+                  <div class="slide-descr animate-element delay7 fadeInUp">I will help you <strong>build your
+                      brand</strong> and <strong>grow your business</strong>. I create clarifying strategy, beautiful
+                    logo and identity design, engaging websites and ongoing marketing support.</div>
+                  <div class="slide-photo slide-photo-about">
+                    <div class="rounded-text">
+                      <svg viewBox="0 0 200 200">
+                        <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0"
+                          transform="translate(100,100)" fill="none" stroke-width="0"></path>
+                        <g font-size="18.5px">
+                          <text text-anchor="start">
+                            <textPath xlink:href="#textPath" startOffset="0%">UX/UI Design - Product Design - Digital
+                              Painting - Artist -</textPath>
+                          </text>
+                        </g>
+                      </svg>
                     </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <ul class="info-list">
-                        <li><span class="title">TTL</span><span class="value">Bandung, 10 Februari 2000</span></li>
-                        <li><span class="title">Kebangsaan</span><span class="value">Indonesia</span></li>
-                        <li><span class="title">Alamat</span><span class="value">Jl. Karang Tineung no 71, Bandung.</span></li>
-                        <li><span class="title">e-mail</span><span class="value"><a href="mailto:wfebriandi@gmail.com">wfebriandi@gmail.com</a></span></li>
-                        <li><span class="title">Telepon</span><span class="value">+6288218091501</span></li>
-                      </ul>
-                    </div>
-
+                    <div class="inside"><img src="img/slide1.png" alt="" /></div>
                   </div>
                 </div>
               </div>
-            </section>
-            <!-- End of Home Subpage -->
+            </div>
+          </div>
+        </div>
 
-            <!-- Resume Subpage -->
-            <section class="pt-page" data-id="resume">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Resume</h2>
-                </div>
-                <div class="page-content">
-
-                  <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Pendidikan</h3>
-                        </div>
-
-                        <div class="timeline">
-                          <!-- Education 1 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">Politeknik Pos Indonesia | Teknik Informatika</h4>
-                            <span class="item-period">2018</span>
-                            <span class="item-small">Sekarang</span>
-                            <p class="item-description">
-                              <ul>
-                                <li>Projek II : Sistem Informasi Pelayanan Warga Tingkat RT Berbasis Web Dengan API WhatsApp</li>
-                                <li>Projek I : Sistem Informasi Kegiatan dan Laporan Keuangan RT Berbasis Web Dengan API WhatsApp</li>
-                              </ul>
-                            </p>
-                          </div>
-
-                          <!-- Education 3 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">SMK Puragabaya | RPL</h4>
-                            <span class="item-period">2015</span>
-                            <span class="item-small">2018</span>
-                            <p class="item-description">Membuat Aplikasi Pemesanan Tiket Pesawat dan Kereta Api Berbasis Web</p>
-                          </div>
-                          <!-- / Education 3 -->
-
-                          <!-- Education 2 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">SMPN 15 Bandung</h4>
-                            <span class="item-period">2012</span>
-                            <span class="item-small">2015</span>
-                            <p class="item-description"></p>
-                          </div>
-                          <!-- / Education 2 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">SDN Harapan 2 Bandung</h4>
-                            <span class="item-period">2006</span>
-                            <span class="item-small">2012</span>
-                            <p class="item-description"></p>
-                          </div>
-                          <!-- / Education 1 -->
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Experience</h3>
-                        </div>
-
-                        <div class="timeline">
-                          <!-- Experience 1 -->
-                          <div class="timeline-item">
-                            <h4 class="item-title">IT Suport (PKL)</h4>
-                            <span class="item-period">JULi 2017 - September 2017</span>
-                            <span class="item-small">PT. DIN</span>
-                            <p class="item-description">
-                              <ul>
-                                <li>Membuat Aplikasi Point Of Sales</li>
-                                <li>Membuat Website Company Profile</li>
-                                <li>Membuat Website Konter HP</li>
-                              </ul>
-                            </p>
-                          </div>
-                          <!-- / Experience 1 -->
-
-                        </div>
-                      </div>
-                    </div>
+        <div class="section pp-scrollable slide slide-services slide-dark slide-services a-slide-typed"
+          data-name="services">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <div class="animate-element delay5 fadeInUp">
+                    <div class="title-mini text-primary">my services</div>
+                    <h2 class="slide-title font-custom"><span class="text-typed a-typed a-typed-services"
+                        data-text="Build your brand"></span> and<br /> grow your business.</h2>
                   </div>
+                  <div class="slide-descr animate-element delay7 fadeInUp">Whether you are working on a new startup or
+                    have an existing product, I'd love the opportunity to help you and your team <strong>solve your most
+                      challenging</strong> problems.</div>
 
-                  <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Front <span>End</span></h3>
-                        </div>
-
-                        <div class="skills-info">
-                          <h4>HTML5</h4>
-                          <!-- <div class="skill-container">
-                            <div class="skill-percentage skill-1"></div>
-                          </div> -->
-
-                          <h4>CSS</h4>
-                          <!-- <div class="skill-container">
-                            <div class="skill-percentage skill-3"></div>
-                          </div> -->
-
-                          <h4>Javascript (jQuery,Ajax)</h4>
-                          <!-- <div class="skill-container">
-                            <div class="skill-percentage skill-2"></div>
-                          </div> -->
-                        </div>
-
-                      </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                      <div class="block">
-                        <div class="block-title">
-                          <h3>Back <span>End</span></h3>
-                        </div>
-
-                        <div class="skills-info">
-                          <h4>PHP</h4>
-                          <!-- <div class="skill-container">
-                            <div class="skill-percentage skill-1"></div>
-                          </div> -->
-
-                          <h4>CodeIgniter</h4>
-                          <!-- <div class="skill-container">
-                            <div class="skill-percentage skill-1"></div>
-                          </div> -->
-
-                          <h4>Laravel</h4>
-                          <!-- <div class="skill-container">
-                            <div class="skill-percentage skill-2"></div>
-                          </div> -->
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Download Resume Button -->
-                  <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <div class="block">
-                        <div class="center download-resume">
-                          <a href="#" class="btn btn-secondary">Download Resume</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Download Resume Button -->
-
-                </div>
-              </div>
-            </section>
-            <!-- End of Resume Subpage -->
-
-
-            <!-- Portfolio Subpage -->
-            <section class="pt-page" data-id="portfolio">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Portfolio</h2>
-                </div>
-                <div class="page-content">
-
-                  <!-- Portfolio Content -->
-                  <div class="portfolio-content">
-
-                    <!-- Portfolio filter -->
-                    <ul id="portfolio_filters" class="portfolio-filters">
-                      <li class="active">
-                        <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="seo">Seo</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="web_design">Web Design</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="Sistem Informasi">Sistem Informasi</a>
-                      </li>
+                  <nav class="service-list animate-element delay9 fadeInUp">
+                    <ul class="">
+                      <li class="primary-link"><a href="#">UX & UI Design</a></li>
+                      <li class="primary-link"><a href="#">Branding Design</a></li>
+                      <li class="primary-link"><a href="#">Mobile App Design</a></li>
+                      <li class="primary-link"><a href="#">Art & Illustration</a></li>
+                      <li class="primary-link"><a href="#">3D Modeling & Motion</a></li>
                     </ul>
-                    <!-- End of Portfolio filter -->
-
-                    <!-- Portfolio Grid -->
-                    <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
-
-                      <!-- Portfolio Item 1 -->
-                      <figure class="item" data-groups='["all", "seo"]'>
-                        <a class="ajax-page-load" href="portfolio-1.html">
-                          <img src="images/portfolio/MCB/MCB_design.jpg" alt="">
-                          <div>
-                            <h5 class="name">Mau Cetak Bandung</h5>
-                            <small>SEO</small>
-                            <i class="fa fa-file-text-o"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 1 -->
-
-                      <!-- Portfolio Item 2 -->
-                      <figure class="item" data-groups='["all", "web_design","seo"]'>
-                        <a href="portfolio-2.html" class="ajax-page-load">
-                          <img src="images/portfolio/jadevindo/jadevindo.jpg" alt="">
-                          <div>
-                            <h5 class="name">JadevIndo</h5>
-                            <small>Design dan SEO</small>
-                            <i class="fa fa-file-text-o"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 2 -->
-
-                      <!-- Portfolio Item 3 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-3.html" class="ajax-page-load">
-                          <img src="images/portfolio/inventory/1.jpg" alt="">
-                          <div>
-                            <h5 class="name">Sistem Inventory Barang</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 3 -->
-                      <!-- Portfolio Item 4 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-4.html" class="ajax-page-load">
-                          <img src="images/portfolio/AplikasiConterHP.jpg" alt="">
-                          <div>
-                            <h5 class="name">Sistem Infomasi Konter HP</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 4 -->
-                      
-                      <!-- Portfolio Item 5 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-5.html" class="ajax-page-load">
-                          <img src="images/portfolio/AplikasiPariwisata.jpg" alt="">
-                          <div>
-                            <h5 class="name">CMS Website Pariwisata (Laravel)</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 5 -->
-
-                      <!-- Portfolio Item 6 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-6.html" class="ajax-page-load">
-                          <img src="images/portfolio/AplikasiPointOfSale.jpg" alt="">
-                          <div>
-                            <h5 class="name">Aplikasi Point Of Sales</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 6 -->
-
-                      <!-- Portfolio Item 7 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-7.html" class="ajax-page-load">
-                          <img src="images/portfolio/AplikasiSIHotel.jpg" alt="">
-                          <div>
-                            <h5 class="name">Sistem Informasi Hotel (CodeIgniter)</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 7 -->
-                      <!-- Portfolio Item 8 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-8.html" class="ajax-page-load">
-                          <img src="images/portfolio/WebsiteBerita.jpg" alt="">
-                          <div>
-                            <h5 class="name">CMS Website Berita Film (CodeIgniter)</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 8 -->
-
-                      <!-- Portfolio Item 9 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-9.html" class="ajax-page-load">
-                          <img src="images/portfolio/AplikasiESkripsi.jpg" alt="">
-                          <div>
-                            <h5 class="name">Aplikasi E-Skripsi (CodeIgniter)</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 9 -->
-
-                       <!-- Portfolio Item 10 -->
-                       <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-10.html" class="ajax-page-load">
-                          <img src="images/portfolio/AplikasiEcomerceFutsalOnline.jpg" alt="">
-                          <div>
-                            <h5 class="name">Aplikasi Ecomerce Futsal</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 10 -->
-
-                      <!-- Portfolio Item 11 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-11.html" class="ajax-page-load">
-                          <img src="images/portfolio/SILAB.jpg" alt="">
-                          <div>
-                            <h5 class="name">Sistem Informasi Lab</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 11 -->
-
-                      <!-- Portfolio Item 12 -->
-                      <figure class="item" data-groups='["all","Sistem Informasi"]'>
-                        <a href="portfolio-12.html" class="ajax-page-load">
-                          <img src="images/portfolio/SISRT.jpg" alt="">
-                          <div>
-                            <h5 class="name">Sistem Informasi Pelayanan Warga Tingkat RT dengan API Whatsapp</h5>
-                            <small>Sistem Informasi</small>
-                            <i class="fa fa-image"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 12 -->
-
-
-                      
-                      </div>
-                    <!-- /Portfolio Grid -->
-
-                  </div>
-                  <!-- /Portfolio Content -->
+                  </nav>
                 </div>
-              </div>
-            </section>
-            <!-- /Portfolio Subpage -->
-
-            <!-- Blog Subpage -->
-            <section class="pt-page" data-id="blog">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>BLog</h2>
-                </div>
-                <div class="page-content">
-
-                  <!-- Portfolio Content -->
-                  <div class="portfolio-content">
-
-                    <!-- Portfolio filter -->
-                    <!-- <ul id="portfolio_filters" class="portfolio-filters">
-                      <li class="active">
-                        <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
-                      </li>
-                    </ul> -->
-                    <!-- End of Portfolio filter -->
-
-                    <!-- Portfolio Grid -->
-                    <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
-
-                      <!-- Portfolio Item 1 -->
-                      <figure class="item" data-groups='["all", "media"]'>
-                        <a class="ajax-page-load" href="blog.html">
-                          <img src="images/blog/jutsucoding.jpg" alt="">
-                          <div>
-                            <h5 class="name">Jutsu Coding</h5>
-                            <small>Sampaikan lah walau hanya sebaris code</small>
-                            <i class="fa fa-file-text-o"></i>
-                          </div>
-                        </a>
-                      </figure>
-                      <!-- /Portfolio Item 1 -->
-                    </div>
-                    <!-- /Portfolio Grid -->
-
-                  </div>
-                  <!-- /Portfolio Content -->
-                </div>
-              </div>
-            </section>
-            <!-- /Blog Subpage -->
-
-            <!-- Contact Subpage -->
-            <section class="pt-page" data-id="contact">
-              <div class="section-inner custom-page-content">
-                <div class="page-header color-1">
-                  <h2>Contact</h2>
-                </div>
-                <div class="page-content">
-
-                  <div class="row">
-                    <div class="col-sm-6 col-md-6">
-                      <div class="block-title">
-                        <h3>Get in <span>Touch</span></h3>
-                      </div>
-                      <!-- Google Map -->
-                      <div class="map">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.262831796241!2d107.59049910767803!3d-6.884455436287142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e68961074761%3A0xdc53ddc0c6fe1dbc!2sGg.+Cemp.+IX%2C+Cipedes%2C+Sukajadi%2C+Kota+Bandung%2C+Jawa+Barat+40162!5e0!3m2!1sid!2sid!4v1549344221546"
-                       width="100%" height="100%"
-                       frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                      <!-- End of Google Map -->
-
-                      <div class="contact-info-block">
-                        <div class="ci-icon">
-                          <i class="fa fa-map-marker"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h5>Jl. Karang Tineung no 71, Bandung</h5>
-                        </div>
-                      </div>
-                      <div class="contact-info-block">
-                        <div class="ci-icon">
-                          <i class="fa fa-envelope"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h5>wfebriandi@gmail.com</h5>
-                        </div>
-                      </div>
-                      <div class="contact-info-block">
-                        <div class="ci-icon">
-                          <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="ci-text">
-                          <h5>+6288218091501</h5>
-                        </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                  <div class="slide-photo slide-photo-services">
+                    <div class="inside"><img src="img/slide2.png" alt="" /></div>
+                    <div class="image-card card2-1 animate-element delay8 fadeInRight">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card2-1.png" alt="" /></div>
                       </div>
                     </div>
-
-                    <div class="col-sm-6 col-md-6">
-                      <div class="block-title">
-                        <h3>Contact <span>Form</span></h3>
+                    <div class="image-card card2-2 animate-element delay9 fadeInUp">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card2-2.png" alt="" /></div>
                       </div>
-                      <form id="contact-form" method="post" action="contact_form/contact_form.php">
-
-                        <div class="messages"></div>
-
-                        <div class="controls">
-                          <div class="form-group form-group-with-icon">
-                            <i class="fa fa-user"></i>
-                            <label>Full Name</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder required="required" data-error="Name is required.">
-                            <div class="form-control-border"></div>
-                            <div class="help-block with-errors"></div>
-                          </div>
-
-                          <div class="form-group form-group-with-icon">
-                            <i class="fa fa-envelope"></i>
-                            <label>Email Address</label>
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder required="required" data-error="Valid email is required.">
-                            <div class="form-control-border"></div>
-                            <div class="help-block with-errors"></div>
-                          </div>
-
-                          <div class="form-group form-group-with-icon">
-                            <i class="fa fa-comment"></i>
-                            <label>Message for Me</label>
-                            <textarea id="form_message" name="message" class="form-control" placeholder rows="4" required="required" data-error="Please, leave me a message."></textarea>
-                            <div class="form-control-border"></div>
-                            <div class="help-block with-errors"></div>
-                          </div>
-
-                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
-
-                          <input type="submit" class="button btn-send" value="Send message">
-                        </div>
-                      </form>
+                    </div>
+                    <div class="image-card card2-3 animate-element delay10 fadeInUp">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card2-3.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card image-card-dark card2-4 animate-element delay11 fadeInRight">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card2-4.png" alt="" /></div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
-            <!-- End Contact Subpage -->
-
+            </div>
           </div>
         </div>
-        <!-- /Page changer wrapper -->
+
+        <div class="section pp-scrollable slide slide-skills a-slide-typed" data-name="skills">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="container">
+              <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-5">
+                  <div class="animate-element delay5 fadeInUp">
+                    <div class="title-mini text-primary">my featured skills</div>
+                    <h2 class="slide-title font-custom">I’m using <span class="text-typed a-typed a-typed-skills"
+                        data-text="top leading"></span><br /> design methods.</h2>
+                  </div>
+                  <div class="slide-descr animate-element delay7 fadeInUp">I specialize in helping early stage startups
+                    validate their riskiest assumptions using <strong>leading design methods</strong>.</div>
+
+                  <div class="bar-list a-progressbar animate-element delay9 fadeInUp">
+                    <div class="bar-item">
+                      <div class="row">
+                        <div class="col bar-item-title">Mobile Design</div>
+                        <div class="col-auto text-right bar-item-value">80%</div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="bar-item">
+                      <div class="row">
+                        <div class="col bar-item-title">3D Modeling</div>
+                        <div class="col-auto text-right bar-item-value">100%</div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="bar-item">
+                      <div class="row">
+                        <div class="col bar-item-title">Illustration</div>
+                        <div class="col-auto text-right bar-item-value">80%</div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                    <div class="bar-item">
+                      <div class="row">
+                        <div class="col bar-item-title">Typography</div>
+                        <div class="col-auto text-right bar-item-value">90%</div>
+                      </div>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                          aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                  <div class="slide-photo">
+                    <div class="image-card card3-1 animate-element delay8 zoomIn">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/slide3.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card3-2 image-card-dark animate-element delay12 fadeInUp">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card3-2.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card3-3 animate-element delay9 fadeInUp">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card3-3.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card3-4 animate-element delay13 fadeInLeft">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card3-4.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section pp-scrollable slide slide-resume slide-dark">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                  <div class="slide-photo slide-photo-education">
+                    <div class="slide-photo-bg-rounded photo-bg-education animate-element delay5 bounceIn">
+                      <div class="inside">
+                        <div class="education-image"><img src="img/slide4-1.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="animate-element delay9 fadeInUp">
+                    <h2 class="slide-title font-custom slide-title-margin-md">Education</h2>
+                    <div class="vacancy-item">
+                      <div class="vacancy-item-title"><a href="#">Graphic Design</a></div>
+                      <div class="vacancy-item-place">University of Studies, Caloforlia</div>
+                      <div class="vacancy-item-time text-primary">Jan 2002 - Dec 2007</div>
+                      <div class="vacancy-item-text">Major in Graphic Design, UX/UI Design, Product Desgin and
+                        Illustration</div>
+                    </div>
+                    <div class="vacancy-item">
+                      <div class="vacancy-item-title"><a href="#">Graphic Design</a></div>
+                      <div class="vacancy-item-place">Eco Design Agency, Caloforlia</div>
+                      <div class="vacancy-item-time text-primary">Jan 2004 - Dec 2006</div>
+                      <div class="vacancy-item-text">Major in Graphic Design, UX/UI Design, Product Desgin,
+                        Illustration, 3D Modeling and Marketing</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                  <div class="slide-photo slide-photo-experience">
+                    <div class="slide-photo-bg-rounded photo-bg-experience animate-element delay7 bounceIn">
+                      <div class="inside">
+                        <div class="experience-image"><img src="img/slide4-2.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="animate-element delay11 fadeInUp">
+                    <h2 class="slide-title font-custom slide-title-margin-md">Experience</h2>
+                    <div class="vacancy-item">
+                      <div class="vacancy-item-title"><a href="#">Senior Graphic Designer</a></div>
+                      <div class="vacancy-item-place">Market Studios, Ltd., Norwalk, California</div>
+                      <div class="vacancy-item-time text-primary">Jan 2018 - Present</div>
+                      <div class="vacancy-item-text">Created design theme & graphics for marketing and sales
+                        presentations, training videos and websites.</div>
+                    </div>
+                    <div class="vacancy-item">
+                      <div class="vacancy-item-title"><a href="#">UX/UI Designer</a></div>
+                      <div class="vacancy-item-place">Dimensions, Huntington Beach, California</div>
+                      <div class="vacancy-item-time text-primary">June 2004 - Dec 2017</div>
+                      <div class="vacancy-item-text">Created new design themes for marketing and collateral materials.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section pp-scrollable slide slide-portfolio a-slide-typed" data-name="portfolio">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="slide-ornament">
+              <div class="inside"></div>
+            </div>
+            <div class="container">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-8 animate-element delay5 fadeInUp">
+                  <div class="title-mini text-primary">My portfolio</div>
+                  <h1 class="slide-title font-custom slide-title-margin-lg">Some of my <span
+                      class="text-typed a-typed a-typed-portfolio" data-text="latest works."></span></h1>
+                </div>
+              </div>
+              <div
+                class="portfolio-carousel a-portfolio-carousel owl-carousel owl-theme animate-element delay7 fadeInUp">
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen1.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Polychromatic Logo</a></div>
+                    <div class="portfolio-item-descr">Branding Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen2.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">TextBook Redesign Acquisition</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen3.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Clemo – Fashion Template</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen1.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Polychromatic Logo</a></div>
+                    <div class="portfolio-item-descr">Branding Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen2.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">TextBook Redesign Acquisition</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen3.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Clemo – Fashion Template</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen1.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Polychromatic Logo</a></div>
+                    <div class="portfolio-item-descr">Branding Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen2.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">TextBook Redesign Acquisition</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen3.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Clemo – Fashion Template</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen1.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Polychromatic Logo</a></div>
+                    <div class="portfolio-item-descr">Branding Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen2.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">TextBook Redesign Acquisition</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen3.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Clemo – Fashion Template</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen1.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Polychromatic Logo</a></div>
+                    <div class="portfolio-item-descr">Branding Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen2.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">TextBook Redesign Acquisition</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="portfolio-item-photo"><a href="#"><img src="img/portfolio-screen3.jpg" alt="" /></a></div>
+                  <div class="portfolio-item-detail">
+                    <div class="portfolio-item-title primary-link"><a href="#">Clemo – Fashion Template</a></div>
+                    <div class="portfolio-item-descr">UX/UI Design</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section pp-scrollable slide slide-awards slide-dark a-slide-typed" data-name="awards">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <div class="animate-element delay5 fadeInUp">
+                    <div class="title-mini title-mini-margin-lg text-primary">my awards/honors</div>
+                    <h3 class="slide-title font-custom">Professional awards and<br /> honors <span
+                        class="text-typed a-typed a-typed-awards" data-text="I’ve reached"></span>.</h3>
+                  </div>
+                  <div class="slide-descr animate-element delay7 fadeInUp">Deciding where to place an Awards and Honors
+                    section will depend on <strong>the resume format</strong>. However, no matter how impressive this
+                    section is, it should of your resume.</div>
+
+                  <div class="reward-list animate-element delay9 fadeInUp">
+                    <div class="reward-item">
+                      <div class="reward-item-photo"><img src="img/reward1.png" alt="" width="69" /></div>
+                      <div class="reward-item-detail">
+                        <div class="reward-item-title">wandra design awards</div>
+                        <div class="reward-item-descr">For Best UX/UI Design App</div>
+                      </div>
+                    </div>
+                    <div class="reward-item">
+                      <div class="reward-item-photo"><img src="img/reward2.png" alt="" width="128" /></div>
+                      <div class="reward-item-detail">
+                        <div class="reward-item-title">Inovative ideas design Awards</div>
+                        <div class="reward-item-descr">For Most Loved Illustration </div>
+                      </div>
+                    </div>
+                    <div class="reward-item">
+                      <div class="reward-item-photo"><img src="img/reward3.png" alt="" width="103" /></div>
+                      <div class="reward-item-detail">
+                        <div class="reward-item-title">creative Design awards</div>
+                        <div class="reward-item-descr">For Best UX/UI Project Design</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                  <div class="slide-photo slide-photo6">
+                    <div class="inside"><img src="img/slide6.png" alt="" /></div>
+                    <div class="image-card image-card-primary card6-1 animate-element delay8 fadeInLeft">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card6-1.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card6-2 animate-element delay11 fadeInLeft">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card6-2.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section pp-scrollable slide slide-testimonials">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="container">
+              <div class="row align-items-center flex-row-reverse">
+                <div class="col-md-5">
+                  <div class="animate-element delay5 fadeInUp">
+                    <div class="title-mini title-mini-margin-lg text-primary">testimonials</div>
+                    <h3 class="slide-title font-custom">It really saves me time and effort Ethant is...</h3>
+                  </div>
+
+                  <div
+                    class="testimonial-carousel a-testimonial-carousel owl-carousel owl-theme animate-element delay7 fadeInUp">
+                    <div class="testimonial-item">
+                      <div class="slide-descr testimonial-item-text">nice one. It's really wonderful. It's just amazing.
+                        Ethant is worth much more than I paid. This is really simply into unbelievable! I just can't get
+                        enough of him. I want to get a T-Shirt with Ethant on it so I can show it off to everyone. It's
+                        all good."</div>
+                      <div class="testimonial-item-author">
+                        <div class="media">
+                          <div class="align-self-center mr-3">
+                            <div class="avatar testimonial-avatar">
+                              <div class="inside" style="background-image: url(img/pic1.jpg);"></div>
+                            </div>
+                          </div>
+                          <div class="align-self-center media-body">
+                            <div class="testimonial-item-author-name">Mallory Julian</div>
+                            <div class="testimonial-item-author-status">CEO and Co Founder at Husena</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                      <div class="slide-descr testimonial-item-text">nice one. It's really wonderful. It's just amazing.
+                        Ethant is worth much more than I paid. This is really simply into unbelievable! I just can't get
+                        enough of him. I want to get a T-Shirt with Ethant on it so I can show it off to everyone. It's
+                        all good."</div>
+                      <div class="testimonial-item-author">
+                        <div class="media">
+                          <div class="align-self-center mr-3">
+                            <div class="avatar testimonial-avatar">
+                              <div class="inside" style="background-image: url(img/pic1.jpg);"></div>
+                            </div>
+                          </div>
+                          <div class="align-self-center media-body">
+                            <div class="testimonial-item-author-name">Mallory Julian</div>
+                            <div class="testimonial-item-author-status">CEO and Co Founder at Husena</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                      <div class="slide-descr testimonial-item-text">nice one. It's really wonderful. It's just amazing.
+                        Ethant is worth much more than I paid. This is really simply into unbelievable! I just can't get
+                        enough of him. I want to get a T-Shirt with Ethant on it so I can show it off to everyone. It's
+                        all good."</div>
+                      <div class="testimonial-item-author">
+                        <div class="media">
+                          <div class="align-self-center mr-3">
+                            <div class="avatar testimonial-avatar">
+                              <div class="inside" style="background-image: url(img/pic1.jpg);"></div>
+                            </div>
+                          </div>
+                          <div class="align-self-center media-body">
+                            <div class="testimonial-item-author-name">Mallory Julian</div>
+                            <div class="testimonial-item-author-status">CEO and Co Founder at Husena</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                      <div class="slide-descr testimonial-item-text">nice one. It's really wonderful. It's just amazing.
+                        Ethant is worth much more than I paid. This is really simply into unbelievable! I just can't get
+                        enough of him. I want to get a T-Shirt with Ethant on it so I can show it off to everyone. It's
+                        all good."</div>
+                      <div class="testimonial-item-author">
+                        <div class="media">
+                          <div class="align-self-center mr-3">
+                            <div class="avatar testimonial-avatar">
+                              <div class="inside" style="background-image: url(img/pic1.jpg);"></div>
+                            </div>
+                          </div>
+                          <div class="align-self-center media-body">
+                            <div class="testimonial-item-author-name">Mallory Julian</div>
+                            <div class="testimonial-item-author-status">CEO and Co Founder at Husena</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                      <div class="slide-descr testimonial-item-text">nice one. It's really wonderful. It's just amazing.
+                        Ethant is worth much more than I paid. This is really simply into unbelievable! I just can't get
+                        enough of him. I want to get a T-Shirt with Ethant on it so I can show it off to everyone. It's
+                        all good."</div>
+                      <div class="testimonial-item-author">
+                        <div class="media">
+                          <div class="align-self-center mr-3">
+                            <div class="avatar testimonial-avatar">
+                              <div class="inside" style="background-image: url(img/pic1.jpg);"></div>
+                            </div>
+                          </div>
+                          <div class="align-self-center media-body">
+                            <div class="testimonial-item-author-name">Mallory Julian</div>
+                            <div class="testimonial-item-author-status">CEO and Co Founder at Husena</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                  <div class="slide-photo slide-photo-testimonials">
+                    <div class="inside"><img src="img/slide7.png" alt="" /></div>
+                    <div class="image-card image-card-primary card7-1 animate-element delay11 fadeInLeft">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card7-1.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card7-2 animate-element delay8 fadeInLeft">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card7-2.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section pp-scrollable slide slide-clients slide-dark">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <div class="animate-element delay5 fadeInUp">
+                    <div class="title-mini title-mini-margin-lg text-primary">my clients &amp; partners</div>
+                    <h3 class="slide-title font-custom">Clients and collaborators.</h3>
+                  </div>
+                  <div class="slide-descr animate-element delay7 fadeInUp">Over the past ten years, I've been fortunate
+                    to work with and for people from some <strong>amazing organizations</strong>.</div>
+
+                  <div class="client-list animate-element delay9 fadeInUp">
+                    <div class="client-item">
+                      <div class="client-item-value">1,142</div>
+                      <div class="client-item-detail">
+                        <div class="client-item-title">total clients </div>
+                        <div class="client-item-descr">In over 25 countries</div>
+                      </div>
+                    </div>
+                    <div class="client-item">
+                      <div class="client-item-value">87</div>
+                      <div class="client-item-detail">
+                        <div class="client-item-title">trusted sponsors</div>
+                        <div class="client-item-descr">Featured by top ranked brand</div>
+                      </div>
+                    </div>
+                    <div class="client-item">
+                      <div class="client-item-value">95%</div>
+                      <div class="client-item-detail">
+                        <div class="client-item-title">sensitve feedback</div>
+                        <div class="client-item-descr">At project quality</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                  <div class="slide-photo slide-photo-clients">
+                    <div class="image-card card8-1 animate-element delay11 fadeInUp">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card8-1.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card8-2 animate-element delay10 fadeInRight">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card8-2.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card8-3 animate-element delay8 fadeInLeft">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card8-3.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card8-4 animate-element delay9 fadeInUp">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card8-4.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card8-5 animate-element delay13 fadeInUp">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card8-5.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card8-6 animate-element delay12 fadeInLeft">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card8-6.png" alt="" /></div>
+                      </div>
+                    </div>
+                    <div class="image-card card8-7 animate-element delay14 fadeInRight">
+                      <div class="image-card-body">
+                        <div class="inside"><img src="img/card8-7.png" alt="" /></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section pp-scrollable slide slide-contacts a-slide-typed" data-name="contacts">
+          <div class="slide-container">
+            <div class="lines">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="contact-ornament"></div>
+            <div class="container">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                  <div class="animate-element delay5 fadeInUp">
+                    <div class="title-mini text-primary">contact me</div>
+                    <h1 class="slide-title font-custom">Are you ready to <span
+                        class="text-typed a-typed a-typed-contacts" data-text="work together?"></span></h1>
+                  </div>
+                  <div class="slide-descr animate-element delay7 fadeInUp">I’m always interested in hearing about new
+                    projects and opportunities.<br /> You can <strong>tell me about the problems</strong> you are trying
+                    to solve. I'd love to listen and see if there's anything I can do to help you.</div>
+                  <div class="slide-btn animate-element delay9 fadeInUp"><a href="#" class="btn btn-dark"
+                      data-toggle="modal" data-target="#request">submit a request</a></div>
+                </div>
+              </div>
+              <div class="row align-items-center text-center contacts animate-element delay11 fadeInUp">
+                <div class="col-md-4">
+                  <div class="contact-item contact-item-phone"><a href="tel:+121553554427" class="phone-link">(+1) 215
+                      5355 4427</a></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="contact-item"><a href="mailto:ethant.hunt@design.com"
+                      class="mail-link">ethant.hunt@design.com</a></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="contact-item">5 Blue Spring St. Jupiter, FL 33458</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- /Main Content -->
     </div>
 
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/pages-switcher.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/validator.js"></script>
-    <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
-    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"></script>-->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript" src="js/jquery.googlemap.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-  </body>
+
+    <footer id="footer" class="footer">
+      <div class="container-fluid">
+        <div class="copyright">© Ethant 2019.</div>
+        <div class="footer-social">
+          <ul class="social">
+            <li><a href="#"><i class="icon-behance"></i></a></li>
+            <li><a href="#"><i class="icon-dribbble"></i></a></li>
+            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+          </ul>
+          <div class="chat">
+            <div class="chat-title">Let’s chat</div>
+            <a href="#" class="chat-btn has-new"><i class="icon-chat"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="progress-nav">
+      <ul id="menu">
+        <li data-menuanchor="About" class="active"></li>
+        <li data-menuanchor="Services"></li>
+        <li data-menuanchor="Skills"></li>
+        <li data-menuanchor="Resume"></li>
+        <li data-menuanchor="Portfolio"></li>
+        <li data-menuanchor="Awards"></li>
+        <li data-menuanchor="Testimonials"></li>
+        <li data-menuanchor="Clients"></li>
+        <li data-menuanchor="Contact"></li>
+      </ul>
+    </div>
+
+
+  </div>
+
+
+  <div class="modal fade" id="request" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <form class="a-form" novalidate="novalidate">
+            <div class="row">
+              <div class="form-group col-sm-6">
+                <input type="text" class="form-control" name="name" required="" placeholder="Name*"
+                  aria-required="true">
+              </div>
+              <div class="form-group col-sm-6">
+                <input type="email" class="form-control" required="" name="email" placeholder="Email*">
+              </div>
+              <div class="form-group col-sm-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject (Optinal)">
+              </div>
+              <div class="form-group col-sm-12">
+                <textarea name="message" class="form-control" required="" placeholder="Message*"></textarea>
+              </div>
+              <div class="form-group form-group-message col-sm-12">
+                <span id="success" class="text-primary">Thank You, your message is successfully sent!</span>
+                <span id="error" class="text-primary">Sorry, something went wrong </span>
+              </div>
+              <div class="col-sm-12 text-center"><button type="submit" class="btn btn-dark">Contact me</button></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.pagepiling.min.js"></script>
+  <script src="js/jquery.viewport.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
 </html>

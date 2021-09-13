@@ -1,0 +1,38 @@
+/* ============================================== */
+/* Slate Blue Color Style
+============================================== */
+
+.loader-dot{
+	background: #7B68EE;
+}
+a, a:hover {
+	color: #7B68EE;
+}
+.hero-area-block .hero-name span, .hero-area-block .home-headline .single-headline, .button-main.button-scheme:hover, #about .utf-services-section .utf-single-service:hover .service-icon, #about .utf-pricing-section .utf-single-plan:hover .plan-icon, #about .utf-pricing-section .utf-single-plan:hover .button-main.button-scheme, .contact-action .inner a.contact-to-action:hover, .utf-count-section .count-box i, #blog .utf-blog-section .single-post .post-content a:hover h5, #about .utf-pricing-section .utf-single-plan .plan-list li i, #about .utf-pricing-section .utf-single-plan .utf-plan-price, #about .utf-info-section .info-content .utf-content-info .single-info>p a:hover, .hero-area-block .home-headline .single-headline, .hero-area-block .justify-content-left .home-headline .single-headline, .hero-area-block .utf-fixed-wrapper .languages-list .single-language:hover, #about .utf-testimonials-section .utf-single-review .review-icon, .utf-box-stats i {
+	color: #7B68EE;
+}
+.hero-area-block .home-headline .single-headline:after, .button-main.button-scheme, .utf-section-heading h2 .featured::before, .utf-section-heading .animated-bar, .item-left-shape .animated-bar, .info-img:before, #about .utf-info-section .info-content .content-follow li.list-inline-item a:before, #about .utf-services-section .utf-single-service .service-icon, #about .utf-services-section .utf-single-service:before, .tns-nav>.tns-nav-active, #about .utf-pricing-section .utf-single-plan .plan-icon, .contact-action, .utf-lightbox-wrapper-area .utf-lightbox-close-area .close-btn, .utf-lightbox-wrapper-area .utf-lightbox-content .utf-section-heading>.utf-section-description, #blog .utf-blog-section .single-post .post-img .content-date, #contact .utf-contact-section .utf-contact-info .list-info .info-icon i, #about .utf-pricing-section .utf-single-plan:hover, .hero-area-block .utf-fixed-wrapper .social-icons>li a:hover, .navbar .navbar-menu, .utf-section-heading .animated-bar:before, .hero-area-block .utf-fixed-wrapper .languages-list .single-language, #resume .utf-picture-section-area ul.liststyle.bullet li:before{
+	background:#7B68EE;
+}
+.navbar .navbar-nav .nav-link:before, .preloader .spinner {
+    background: #7B68EE;	
+}
+#resume .utf-resume-section .utf-resume-item {
+	border-left-color: #7B68EE;
+}
+#resume .utf-resume-section .utf-resume-item .item-arrow:before, #resume .utf-skills-section .utf-single-skill .utf-skill-progress .progress-bar, #resume .utf-video-section-area .video-part .embed-responsive-item .play-wrapper {
+	background: #7B68EE;
+}
+#portfolio .utf-portfolio-section .filter-control > li.tab-active, #portfolio .utf-portfolio-section .filter-control>li:before, #portfolio .utf-portfolio-section .utf-portfolio-grid .utf-portfolio-wrapper:hover .item-content {
+	background:#7B68EE;
+}
+#contact .utf-contact-section .contact-form .form-group .form-control:focus, .comments-form .form-control:focus {
+	border: 2px solid #7B68EE;
+	box-shadow: 0 0 0 .2rem rgba(2, 123, 255, 0.15);
+}
+#contact .utf-contact-section .utf-contact-info .list-info .info-details .utf-info-value a:focus, #contact .utf-contact-section .utf-contact-info .list-info .info-details .utf-info-value a:hover {
+	color: #7B68EE !important
+}
+#contact .utf-contact-section .contact-form .utf-content-title:after, #contact .utf-contact-section .utf-contact-info h4.utf-content-title:after{
+	background:#7B68EE;
+}
